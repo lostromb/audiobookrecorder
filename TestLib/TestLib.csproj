@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Durandal.AI" Version="22.0.4607" />
+    <PackageReference Include="Durandal.AI.Extensions.BassAudio" Version="22.0.4607" />
+    <PackageReference Include="Durandal.AI.Extensions.NativeAudio" Version="22.0.4607" />
+  </ItemGroup>
+</Project>

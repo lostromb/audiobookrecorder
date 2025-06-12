@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AudiobookRecorder": {
+      "commandName": "Project",
+      "commandLineArgs": "-split \"C:\\Code\\AudiobookRecorder\\Books\" -vosk \"C:\\Code\\Durandal\\Data\\vosk\\vosk-model-en-us-0.42-gigaspeech\""
+    }
+  }
+}

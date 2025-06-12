@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Durandal.AI" Version="22.0.4607" />
+    <PackageReference Include="Durandal.AI.Extensions.BassAudio" Version="22.0.4607" />
+    <PackageReference Include="Durandal.AI.Extensions.NativeAudio" Version="22.0.4607" />
+    <PackageReference Include="Durandal.AI.Extensions.Vosk" Version="22.0.4607" />
+    <PackageReference Include="Durandal.AI.NonPortable" Version="22.0.4607" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestLib\TestLib.csproj" />
+  </ItemGroup>
+
+</Project>
